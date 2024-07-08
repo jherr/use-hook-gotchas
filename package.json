@@ -1,0 +1,9 @@
+{
+  "name": "use-hook-gotchas",
+  "private": true,
+  "scripts": {
+    "lazy-use": "npx @lazarv/react-server@latest ./lazy-use.jsx",
+    "staggered": "npx @lazarv/react-server@latest ./staggered.jsx",
+    "state-resets": "npx @lazarv/react-server@latest ./state-resets.jsx"
+  }
+}

@@ -1,3 +1,6 @@
+"use client";
+
+import { ClientOnly } from "@lazarv/react-server/client";
 import { useState, use, Suspense } from "react";
 
 function NameDisplay() {
@@ -29,4 +32,8 @@ function App() {
   );
 }
 
-export default App;
+export default () => (
+  <ClientOnly>
+    <App />
+  </ClientOnly>
+);
